@@ -1,2 +1,24 @@
-# Library-Management-System
-This is a Library Management System written in C++ that runs in the console. It allows you to add books and users, search for books, borrow and return books, view borrowed books, and sort data by ID or name. The program uses basic C++ features and simple menu-driven interaction.
+# 📚 Library Management System
+
+A simple **console-based** Library Management System written in C++.
+
+## Features
+
+- Add books and users with unique IDs.
+- Search books by title prefix.
+- Borrow and return books.
+- View which user borrowed which book.
+- Sort books and users by ID or name.
+- Display all books and users.
+- Object-oriented design using classes: `Book`, `User`, and `Library_system`.
+
+## Getting Started
+
+### Prerequisites
+
+- C++ compiler with C++11 support (e.g., `g++`)
+
+### Compilation
+
+```bash
+g++ -std=c++11 Library_System.cpp -o library
